@@ -22,6 +22,33 @@
       "content": "Nội dung chi tiết cho Nước Rửa Chén Bạc Hà. Đánh bay dầu mỡ cứng đầu nhất. Công nghệ kháng khuẩn nano bạc. An toàn cho da tay em bé.",
       "main_image": "https://cdn.tgdd.vn/Files/2017/11/18/1042529/cac-loai-nuoc-rua-chen-an-toan-tot-nhat-cho-nguoi-noi-tro-201910300924403781.jpg",
       "category_id": 2
+    },
+    {
+      "id": 3,
+      "name": "Nước Giặt Cửa Trên Sạch Sâu",
+      "slug": "nuoc-giat-cua-tren",
+      "description": "Công thức chuyên biệt cho máy giặt cửa trên, xoáy bay vết bẩn.",
+      "content": "Chi tiết sản phẩm Nước Giặt Cửa Trên Sạch Sâu. Công thức ít bọt, bảo vệ máy giặt và làm sạch hiệu quả.",
+      "main_image": "https://salt.tikicdn.com/cache/750x750/ts/product/44/e9/93/f6a3d61b36f11053ea507212c6f14b62.jpg",
+      "category_id": 1
+    },
+    {
+      "id": 4,
+      "name": "Nước Lau Sàn Tinh Dầu Sả Chanh",
+      "slug": "nuoc-lau-san-sa-chanh",
+      "description": "Sạch bóng, khô nhanh, đuổi côn trùng hiệu quả.",
+      "content": "Nước lau sàn DUNIX8 hương Sả Chanh không chỉ làm sạch mà còn giúp thư giãn tinh thần, xua đuổi ruồi muỗi và côn trùng.",
+      "main_image": "https://thienanvn.com/uploads/files/2022/03/10/nuoc-lau-san-huong-sa-chanh-38kg.jpg",
+      "category_id": 3
+    },
+    {
+      "id": 5,
+      "name": "Nước Lau Sàn Hương Hoa Ly",
+      "slug": "nuoc-lau-san-huong-ly",
+      "description": "Hương hoa ly dịu nhẹ, thơm ngát cho cả căn phòng.",
+      "content": "Mang cả vườn hoa Ly vào ngôi nhà của bạn với công nghệ lưu hương tiên tiến. Sàn nhà sạch kin kít và thơm mát suốt cả ngày dài.",
+      "main_image": "https://cf.shopee.vn/file/sg-11134201-22120-f5z281d7m6lvc5",
+      "category_id": 3
     }
   ]
 }

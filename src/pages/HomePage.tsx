@@ -29,7 +29,7 @@ const HomePage: React.FC = () => {
   return (
     <div className="space-y-12">
       {/* 1. Hero Section (Banner) */}
-      <section className="bg-blue-600 text-white rounded-lg p-12 md:p-20 text-center shadow-xl">
+      <section className="bg-green-600 text-white rounded-lg p-12 md:p-20 text-center shadow-xl">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
           Chào mừng đến với DUNIX8
         </h1>
@@ -37,7 +37,7 @@ const HomePage: React.FC = () => {
           Giải pháp giặt xả, tẩy rửa an toàn cho gia đình bạn.
         </p>
         <Link 
-          to="/products" 
+          to="/nuoc-giat" 
           className="bg-white text-blue-600 font-bold py-3 px-8 rounded-full text-lg hover:bg-gray-100 transition duration-300"
         >
           Khám phá Sản phẩm

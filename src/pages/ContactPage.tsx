@@ -119,7 +119,7 @@ const ContactPage: React.FC = () => {
             {/* Nút Gửi */}
             <button
               type="submit"
-              className="w-full bg-blue-600 text-white px-6 py-3 rounded-lg font-bold text-lg hover:bg-blue-700 transition duration-300 shadow-md hover:shadow-lg"
+              className="w-full bg-green-600 text-white px-6 py-3 rounded-lg font-bold text-lg hover:bg-blue-700 transition duration-300 shadow-md hover:shadow-lg"
             >
               Gửi Liên Hệ
             </button>
@@ -127,7 +127,7 @@ const ContactPage: React.FC = () => {
         </div>
 
         {/* === CỘT BÊN PHẢI: THÔNG TIN & ẢNH === */}
-        <div className="w-full md:w-1/2 bg-blue-600 p-8 text-white">
+        <div className="w-full md:w-1/2 bg-green-600 p-8 text-white">
           <h2 className="text-2xl font-semibold mb-6">Thông tin liên hệ</h2>
           <ul className="space-y-6">
             <li className="flex items-start">
