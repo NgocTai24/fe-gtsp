@@ -10,7 +10,7 @@ interface ProductCardProps {
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   return (
     <div className="border rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
-      <Link to={`/san-pham/${product.slug}`}>
+      <Link to={`/products/${product.slug}`}>
         <img 
           src={product.main_image} 
           alt={product.name} 

@@ -1,4 +1,3 @@
-
 {
   "categories": [
     { "id": 1, "name": "Nước giặt", "slug": "nuoc-giat" },
@@ -11,7 +10,8 @@
       "name": "Nước Giặt Hương Hoa Cỏ Mùa Xuân",
       "slug": "nuoc-giat-huong-hoa-co",
       "description": "Lưu hương thơm ngát, sạch bẩn vượt trội.",
-      "main_image": "https://via.placeholder.com/300",
+      "content": "Đây là nội dung chi tiết cho Nước Giặt Hương Hoa Cỏ. Thành phần: 100% tự nhiên, không gây kích ứng da. Hướng dẫn sử dụng: Đổ 1 nắp cho 5kg quần áo...",
+      "main_image": "https://via.placeholder.com/600x400",
       "category_id": 1
     },
     {
@@ -19,7 +19,8 @@
       "name": "Nước Rửa Chén Tinh Dầu Bạc Hà",
       "slug": "nuoc-rua-chen-bac-ha",
       "description": "Sạch bóng kin kít, an toàn cho da tay.",
-      "main_image": "https://via.placeholder.com/300",
+      "content": "Nội dung chi tiết cho Nước Rửa Chén Bạc Hà. Đánh bay dầu mỡ cứng đầu nhất. Công nghệ kháng khuẩn nano bạc. An toàn cho da tay em bé.",
+      "main_image": "https://via.placeholder.com/600x400",
       "category_id": 2
     }
   ]
