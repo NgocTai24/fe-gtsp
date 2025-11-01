@@ -1,35 +1,47 @@
 {
   "categories": [
-    { "id": 1, "name": "Nước giặt", "slug": "nuoc-giat" },
-    { "id": 2, "name": "Nước rửa chén", "slug": "nuoc-rua-chen" },
-    { "id": 3, "name": "Nước lau sàn", "slug": "nuoc-lau-san" }
+    {
+      "id": 1,
+      "name": "Nước giặt",
+      "slug": "nuoc-giat"
+    },
+    {
+      "id": 2,
+      "name": "Nước rửa chén",
+      "slug": "nuoc-rua-chen"
+    },
+    {
+      "id": 3,
+      "name": "Nước lau sàn",
+      "slug": "nuoc-lau-san"
+    }
   ],
   "products": [
     {
       "id": 1,
-      "name": "Nước Giặt Hương Hoa Cỏ Mùa Xuân",
+      "name": "Nước Giặt Xả Cao cấp hương lenvender 5kg",
       "slug": "nuoc-giat-huong-hoa-co",
       "description": "Lưu hương thơm ngát, sạch bẩn vượt trội.",
       "content": "Đây là nội dung chi tiết cho Nước Giặt Hương Hoa Cỏ. Thành phần: 100% tự nhiên, không gây kích ứng da. Hướng dẫn sử dụng: Đổ 1 nắp cho 5kg quần áo...",
-      "main_image": "https://sieuthido.com/assets/uploads/images/Sieuthido/omomatic-chai-27-kg-4-700x467-2.jpg",
+      "main_image": "/images/nuocgiat/ng1.jpg",
       "category_id": 1
     },
     {
       "id": 2,
-      "name": "Nước Rửa Chén Tinh Dầu Bạc Hà",
+      "name": "Nước Rửa Chén Hương Quế 5kg",
       "slug": "nuoc-rua-chen-bac-ha",
       "description": "Sạch bóng kin kít, an toàn cho da tay.",
       "content": "Nội dung chi tiết cho Nước Rửa Chén Bạc Hà. Đánh bay dầu mỡ cứng đầu nhất. Công nghệ kháng khuẩn nano bạc. An toàn cho da tay em bé.",
-      "main_image": "https://cdn.tgdd.vn/Files/2017/11/18/1042529/cac-loai-nuoc-rua-chen-an-toan-tot-nhat-cho-nguoi-noi-tro-201910300924403781.jpg",
+      "main_image": "/images/ruachen/rc1.jpg",
       "category_id": 2
     },
     {
       "id": 3,
-      "name": "Nước Giặt Cửa Trên Sạch Sâu",
+      "name": "Nước Giặt Xả Cao cấp hương lenvender 3kg",
       "slug": "nuoc-giat-cua-tren",
       "description": "Công thức chuyên biệt cho máy giặt cửa trên, xoáy bay vết bẩn.",
       "content": "Chi tiết sản phẩm Nước Giặt Cửa Trên Sạch Sâu. Công thức ít bọt, bảo vệ máy giặt và làm sạch hiệu quả.",
-      "main_image": "https://salt.tikicdn.com/cache/750x750/ts/product/44/e9/93/f6a3d61b36f11053ea507212c6f14b62.jpg",
+      "main_image": "/images/nuocgiat/ng2.jpg",
       "category_id": 1
     },
     {
@@ -38,7 +50,7 @@
       "slug": "nuoc-lau-san-sa-chanh",
       "description": "Sạch bóng, khô nhanh, đuổi côn trùng hiệu quả.",
       "content": "Nước lau sàn DUNIX8 hương Sả Chanh không chỉ làm sạch mà còn giúp thư giãn tinh thần, xua đuổi ruồi muỗi và côn trùng.",
-      "main_image": "https://thienanvn.com/uploads/files/2022/03/10/nuoc-lau-san-huong-sa-chanh-38kg.jpg",
+      "main_image": "/images/lausan/ls1.jpg",
       "category_id": 3
     },
     {
@@ -47,8 +59,35 @@
       "slug": "nuoc-lau-san-huong-ly",
       "description": "Hương hoa ly dịu nhẹ, thơm ngát cho cả căn phòng.",
       "content": "Mang cả vườn hoa Ly vào ngôi nhà của bạn với công nghệ lưu hương tiên tiến. Sàn nhà sạch kin kít và thơm mát suốt cả ngày dài.",
-      "main_image": "https://cf.shopee.vn/file/sg-11134201-22120-f5z281d7m6lvc5",
+      "main_image": "/images/lausan/ls2.jpg",
       "category_id": 3
+    },
+    {
+      "id": 6,
+      "name": "Nước Rửa Chén Hương Quế 3kg",
+      "slug": "nuoc-rua-chen-bac-ha",
+      "description": "Sạch bóng kin kít, an toàn cho da tay.",
+      "content": "Nội dung chi tiết cho Nước Rửa Chén Bạc Hà. Đánh bay dầu mỡ cứng đầu nhất. Công nghệ kháng khuẩn nano bạc. An toàn cho da tay em bé.",
+      "main_image": "/images/ruachen/rc3.jpg",
+      "category_id": 2
+    },
+    {
+      "id": 7,
+      "name": "Nước Rửa Chén Hương Quế 4kg",
+      "slug": "nuoc-rua-chen-bac-ha",
+      "description": "Sạch bóng kin kít, an toàn cho da tay.",
+      "content": "Nội dung chi tiết cho Nước Rửa Chén Bạc Hà. Đánh bay dầu mỡ cứng đầu nhất. Công nghệ kháng khuẩn nano bạc. An toàn cho da tay em bé.",
+      "main_image": "/images/ruachen/rc4.jpg",
+      "category_id": 2
+    },
+    {
+      "id": 8,
+      "name": "Nước Rửa Chén Hương Quế 800ml",
+      "slug": "nuoc-rua-chen-bac-ha",
+      "description": "Sạch bóng kin kít, an toàn cho da tay.",
+      "content": "Nội dung chi tiết cho Nước Rửa Chén Bạc Hà. Đánh bay dầu mỡ cứng đầu nhất. Công nghệ kháng khuẩn nano bạc. An toàn cho da tay em bé.",
+      "main_image": "/images/ruachen/rc2.jpg",
+      "category_id": 2
     }
   ]
 }

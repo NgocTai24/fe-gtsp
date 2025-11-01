@@ -1,13 +1,14 @@
-// src/pages/ProductDetailPage.tsx
 import React, { useState, useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
+// 1. Import useNavigate
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import axiosClient from '../api/axiosClient';
 import { Product } from '../types';
 
 const ProductDetailPage: React.FC = () => {
-  // 1. Lấy "slug" từ URL
   const { slug } = useParams<{ slug: string }>(); 
-  
+  // 2. Khởi tạo useNavigate
+  const navigate = useNavigate();
+
   const [product, setProduct] = useState<Product | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
@@ -39,6 +40,11 @@ const ProductDetailPage: React.FC = () => {
     fetchProduct();
   }, [slug]); // 3. useEffect sẽ chạy lại mỗi khi "slug" thay đổi
 
+  // 3. Tạo hàm xử lý quay lại trang trước
+  const handleGoBack = () => {
+    navigate(-1); // -1 có nghĩa là quay lại trang trước đó trong lịch sử trình duyệt
+  };
+
   // 4. Render các trạng thái
   if (loading) {
     return <div className="text-center p-10">Đang tải chi tiết sản phẩm...</div>;
@@ -48,9 +54,13 @@ const ProductDetailPage: React.FC = () => {
     return (
       <div className="text-center p-10 text-red-500">
         <p>{error}</p>
-        <Link to="/products" className="text-blue-600 hover:underline">
-          Quay lại trang sản phẩm
-        </Link>
+        {/* 4. Sửa Link thành Button và dùng navigate */}
+        <button
+          onClick={handleGoBack}
+          className="text-green-600 hover:underline"
+        >
+          &larr; Quay lại
+        </button>
       </div>
     );
   }
@@ -60,13 +70,17 @@ const ProductDetailPage: React.FC = () => {
     return <div>Không có sản phẩm.</div>;
   }
 
-  // 5. Render chi tiết sản phẩm (khi đã có data)
+  // 5. Render chi tiết sản phẩm
   return (
     <div className="container mx-auto p-4">
       <div className="mb-4">
-        <Link to="/products" className="text-blue-600 hover:underline">
+        {/* 5. Sửa Link thành Button và dùng navigate */}
+        <button
+          onClick={handleGoBack}
+          className="text-green-600 hover:underline"
+        >
           &larr; Quay lại danh sách
-        </Link>
+        </button>
       </div>
       
       <div className="flex flex-col md:flex-row gap-8">
@@ -75,7 +89,7 @@ const ProductDetailPage: React.FC = () => {
           <img 
             src={product.main_image} 
             alt={product.name}
-            className="w-full rounded-lg shadow-lg"
+            className="w-full rounded-lg shadow-lg object-cover" // Thêm object-cover để ảnh không bị méo
           />
         </div>
 

@@ -29,7 +29,7 @@ const TuyenDungPage: React.FC = () => {
           
           {/* --- VỊ TRÍ TUYỂN DỤNG --- */}
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-blue-600 mb-4 border-l-4 border-blue-600 pl-3">
+            <h2 className="text-2xl font-semibold text-green-600 mb-4 border-l-4 border-blue-600 pl-3">
               Vị Trí Tuyển Dụng
             </h2>
             <div className="flex flex-col md:flex-row gap-4">
@@ -52,7 +52,7 @@ const TuyenDungPage: React.FC = () => {
 
           {/* --- ƯU ĐIỂM SẢN PHẨM --- */}
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-blue-600 mb-4 border-l-4 border-blue-600 pl-3">
+            <h2 className="text-2xl font-semibold text-green-600 mb-4 border-l-4 border-blue-600 pl-3">
               Tại Sao Bạn Nên Chọn Sản Phẩm DUNIX8?
             </h2>
             <ul className="space-y-3 text-gray-700">
@@ -77,7 +77,7 @@ const TuyenDungPage: React.FC = () => {
 
           {/* --- YÊU CẦU ỨNG VIÊN --- */}
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-blue-600 mb-4 border-l-4 border-blue-600 pl-3">
+            <h2 className="text-2xl font-semibold text-green-600 mb-4 border-l-4 border-blue-600 pl-3">
               Chúng Tôi Tìm Kiếm
             </h2>
             <ul className="space-y-3 text-gray-700">
@@ -106,7 +106,7 @@ const TuyenDungPage: React.FC = () => {
             </p>
             <a 
               href="tel:0396850447" 
-              className="inline-flex items-center justify-center bg-blue-600 text-white font-bold text-xl px-8 py-3 rounded-full hover:bg-blue-700 transition duration-300 shadow-lg"
+              className="inline-flex items-center justify-center bg-green-600 text-white font-bold text-xl px-8 py-3 rounded-full hover:bg-blue-700 transition duration-300 shadow-lg"
             >
               <FaPhoneAlt className="mr-3" />
               Liên hệ: 0396.850.447
