@@ -1,0 +1,26 @@
+
+{
+  "categories": [
+    { "id": 1, "name": "Nước giặt", "slug": "nuoc-giat" },
+    { "id": 2, "name": "Nước rửa chén", "slug": "nuoc-rua-chen" },
+    { "id": 3, "name": "Nước lau sàn", "slug": "nuoc-lau-san" }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Nước Giặt Hương Hoa Cỏ Mùa Xuân",
+      "slug": "nuoc-giat-huong-hoa-co",
+      "description": "Lưu hương thơm ngát, sạch bẩn vượt trội.",
+      "main_image": "https://via.placeholder.com/300",
+      "category_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Nước Rửa Chén Tinh Dầu Bạc Hà",
+      "slug": "nuoc-rua-chen-bac-ha",
+      "description": "Sạch bóng kin kít, an toàn cho da tay.",
+      "main_image": "https://via.placeholder.com/300",
+      "category_id": 2
+    }
+  ]
+}
